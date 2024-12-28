@@ -10,7 +10,7 @@ This [webtrees](https://www.webtrees.net) module shows historical facts (in seve
 
 <a name="screenshot"></a>
 ## Screenshot
-![Screenshot](docs/img/screenshot.png)
+![Screenshot](docs/img/Screenshot.png)
 
 <a name="usage"></a>
 ## Usage
@@ -24,11 +24,12 @@ The structure of historic events provided by this module is oriented on GEDCOM e
 
 The basic information contains historical events with the year they happened (and optionally) the year they ended.
 It is stored as csv files in the folder `resources/data` and can be edited easily.
-The semi-colon separated columns in that files are
-    * from date
-    * to date
-    * event (text)
-    * link to event (URL)
+The semi-colon separated columns in those files are 
+
+    *  from date
+    *  to date
+    *  event (text)
+    *  link to event (URL)
 
 Example:
 `1789;1797;George Washington;https://wikipedia.org/wiki/George_Washington`
@@ -37,7 +38,7 @@ The file names are using "csv" as file extension, like `<locale>_data_v1_0.csv` 
 
 For the links in the notes Markdown formatting is used;
 this should be enabled for your tree. See Control panel/Manage family trees/Preferences and then scroll down to "Text" and mark the option "markdown".
-If markdown is disabled the links are still working, but the formatting isn't so nice.
+If Markdown is disabled the links are still working, but the formatting isn't so nice.
 
 Select as user "Historic events" at the "Facts and events" tab.
 
@@ -100,7 +101,7 @@ There are now, beside English and German, no other translations available.
 
 If you'd like to contribute to this module, great! You can contribute by
 
-- Contributing historical facts: make you familiar with the structure of the csv file; change existing or add new data; test it; [create an issue](https://github.com/hartenthaler/gramps-historical-facts/issues), then you can link your pull request.
+- Contributing historical facts: make you familiar with the structure of the csv files; change existing or add new data; test it; [create an issue](https://github.com/hartenthaler/gramps-historical-facts/issues), then you can link your pull request.
 - Contributing code: check out the issues for things that need attention. If you have changes you want to make not listed in an [issue](https://github.com/hartenthaler/gramps-historical-facts/issues), please create one, then you can link your pull request.
 - Testing: it's all manual currently, please [create an issue](https://github.com/hartenthaler/gramps-historical-facts/issues) for any bugs you find.
 
